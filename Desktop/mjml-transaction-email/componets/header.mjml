@@ -1,0 +1,9 @@
+<mj-raw>
+    <!--Start of Header-->
+</mj-raw>
+<mj-section css-class="header section-padding">
+    <mj-column>
+        <mj-image css-class="logo" src="https://i.ibb.co/CWQmBWS/logo.png" alt="logo"
+        width="150px" height="150px" align="center">
+    </mj-column>
+</mj-section>

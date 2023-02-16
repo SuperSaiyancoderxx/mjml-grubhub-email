@@ -1,0 +1,24 @@
+<mj-raw>
+  <!--Start of Footer links-->
+</mj-raw>
+<mj-wrapper padding="30px 0 50px 0" css-class="footer-background">
+  <mj-section padding="10px">
+    <mj-column width="500px" css-class="footer-button">
+      <mj-text font-family="sans-serif" color="#ffffff" align="center" font-weight="medium" font-size="16px">SHOP CEREAL</mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section padding="10px">
+    <mj-column width="500px" css-class="footer-button">
+      <mj-text font-family="sans-serif" color="#ffffff" align="center" font-weight="medium" font-size="16px">SHOP PUFFS</mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section padding="10px">
+    <mj-column width="500px" css-class="footer-button">
+      <mj-text font-family="sans-serif" color="#ffffff" align="center" font-weight="medium" font-size="16px">OUR STORY</mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section padding="10px">
+    <mj-column width="500px" css-class="footer-button">
+      <mj-text font-family="sans-serif" color="#ffffff" align="center" font-weight="medium" font-size="16px">REVIEWS</mj-text>
+    </mj-column>
+  </mj-wrapper>
