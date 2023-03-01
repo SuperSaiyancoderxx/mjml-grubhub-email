@@ -1,8 +1,0 @@
-<mj-raw>
-  <!--Start of button-->
-</mj-raw>
-<mj-section>
-  <mj-column width="200px" css-class="package-button">
-    <mj-text color="#ffffff" font-weight="bold" align="center"><a href="#" class="package-link">TRACK MY PACKAGE</a></mj-text>
-  </mj-column>
-</mj-section>
