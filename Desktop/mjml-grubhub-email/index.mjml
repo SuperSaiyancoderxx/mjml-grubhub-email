@@ -1,0 +1,211 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @media (max-width: 480px) {
+        .size div {
+          font-size: 22px !important;
+
+        }
+      }
+
+      @media (max-width: 480px) {
+        .ssize div {
+          font-size: 14px !important;
+
+        }
+      }
+
+      .order-link {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      .footer-link {
+        text-decoration: underline;
+        color: #5c5c5c;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .content-background {
+        background-color: #ffffff;
+      }
+
+      .order-button {
+        border: 0px solid;
+        border-radius: 3px;
+        background-color: #0070eb;
+        max-width: 200px;
+      }
+
+      .last-section-color {
+        background-color: #efefef;
+      }
+
+      .icons-size {
+        max-width: 320px;
+        padding: 0 0 10px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <mj-wrapper css-class="content-background">
+      <mj-raw>
+        <!--Start of red line-->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider border-width="4px" border-color="red" border-style="solid">
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--Start of header-->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image src="https://i.ibb.co/N3GtVWf/logo.png" width="150px" alt="grubhub logo">
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--Start of hero image-->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image src="https://i.ibb.co/YTm67yK/hero.png" alt="grubhub items">
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--Start of heading-->
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-text line-height="25px" padding="0 0 30px 0" css-class="size" font-weight="bold" align="center" font-family="sans-serif" font-size="32px">Don't just order. Order like a pro.</mj-text>
+          <mj-text css-class="ssize" line-height="30px" align="center" font-weight="bold" font-family="sans-serif" font-size="20px">You already know how to order from Grubhub.
+            Take your next order up a notch with these 5 pro tips.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--Start of how to order-->
+      </mj-raw>
+      <mj-section padding="15px 0 0 0">
+        <mj-column>
+          <mj-image align="center" src="https://i.ibb.co/pJRqYQv/1.png" width="75px" alt="1">
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text line-height="25px" font-family="sans-serif" font-size="18px" align="center">Order filling and budget-friendly carbs like potatoes,
+            rice, and quinoa. </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="20px 0 0 0">
+        <mj-column>
+          <mj-image align="center" src="https://i.ibb.co/x5fbtqW/2.png" width="75px" alt="2">
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text line-height="25px" font-family="sans-serif" font-size="18px" align="center">Pick up your
+            food to skip the delivery fee and tip.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="20px 0 0 0">
+        <mj-column>
+          <mj-image align="center" src="https://i.ibb.co/LCdQnVc/3.png" width="75px" alt="3">
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text line-height="25px" font-family="sans-serif" font-size="18px" align="center">Try a lunch
+            special---many include a side, dessert or drink.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="20px 0 0 0">
+        <mj-column>
+          <mj-image align="center" src="https://i.ibb.co/gJBnjSt/4.png" width="75px" alt="4">
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text line-height="25px" font-family="sans-serif" font-size="18px" align="center">Order a bigger
+            meal with friends and use Venmo to skip the bill</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="20px 0 0 0">
+        <mj-column>
+          <mj-image align="center" src="https://i.ibb.co/n62TmDZ/5.png" width="75px" alt="5">
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text line-height="25px" font-family="sans-serif" font-size="18px" align="center">Watch for money-saving
+            promo codes and special offers.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--Start of button-->
+      </mj-raw>
+      <mj-section>
+        <mj-column css-class="order-button">
+          <mj-text padding="15px 0 15px 0" font-family="sans-serif" font-size="18px" color="#ffffff" font-weight="bold" align="center">
+            <a href="#" class="order-link">Order like a pro</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--Start of perks image-->
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-image css-class="perks-image" src="https://i.ibb.co/JBZct3z/diamond.png" alt="grubhub perks">
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--Start of grubhub image-->
+      </mj-raw>
+      <mj-section css-class="last-section-color" padding="0">
+        <mj-column>
+          <mj-image css-class="perks-image" src="https://i.ibb.co/y4kprSx/footer.png" alt="grubhub image" width="200px">
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!--Start of footer social media icons-->
+      </mj-raw>
+      <mj-section css-class="last-section-color">
+        <mj-group css-class="icons-size">
+          <mj-column>
+            <mj-image src="https://i.ibb.co/RHPXgjc/youtube.png" alt="youtube icon" width="40px" height="28px">
+          </mj-column>
+          <mj-column>
+            <mj-image src="https://i.ibb.co/2FYdt4X/insta.png" alt="insta icon" width="40px" height="28px">
+          </mj-column>
+          <mj-column>
+            <mj-image src="https://i.ibb.co/zrXXWxR/facebook.png" alt="facebook icon" width="40px" height="28px">
+          </mj-column>
+          <mj-column>
+            <mj-image src="https://i.ibb.co/3TN1vGk/twitter.png" alt="twitter icon" width="40px" height="28px">
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-raw>
+        <!--Start of footer text-->
+      </mj-raw>
+      <mj-section padding="0" css-class="last-section-color">
+        <mj-column>
+          <mj-text line-height="25px" font-size="14px" align="center" color="#555555" font-family="sans-serif">© 2019 Grubhub. This email was sent by Grubhub
+            111 W. Washington Street., Suite 2100, Chicago, IL, 60602, USA</mj-text>
+          <mj-text line-height="25px" font-size="14px" align="center" color="#555555" font-family="sans-serif">If you no longer
+            wish to receive these emails, it's cool -- you can <a href="#" class="footer-link">unsubscribe</a>. But don't think we won't miss you.</mj-text>
+        </mj-column>
+      </mj-section>
+
+
+    </mj-wrapper>
+  </mj-body>
+
+
+
+</mjml>
